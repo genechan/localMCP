@@ -19,12 +19,11 @@ This repository demonstrates a simple Model Context Protocol (MCP) server built 
 
 ```bash
 # Clone or initialize project
-git clone <repo-url> localMCP
-cd my-mcp-server
+git clone https://github.com/genechan/localMCP
+cd localMCP
 
 # Install dependencies
-npm install @modelcontextprotocol/sdk zod
-npm install --save-dev typescript @types/node
+yarn install
 
 # Initialize TypeScript
 tsc --init
